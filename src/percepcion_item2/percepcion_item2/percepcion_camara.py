@@ -48,8 +48,8 @@ class PercepcionCamara(Node):
 
             'verde': [
                 (
-                    np.array([54, 109, 78]),
-                    np.array([77, 255, 255])
+                    np.array([45, 20, 45]),
+                    np.array([75, 255, 255])
                 ),
             ],
 
