@@ -1,0 +1,11 @@
+float64 x_mm
+float64 y_mm
+float64 z_mm
+float64 qx
+float64 qy
+float64 qz
+float64 qw
+---
+bool success
+string message
+trajectory_msgs/JointTrajectory trajectory

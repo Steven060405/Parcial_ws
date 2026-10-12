@@ -1,0 +1,7 @@
+Repositorio de referencia:
+https://github.com/Steven060405/PARCIAL_ROBOTICA.git
+Rama observada: master
+Tree SHA observado: 926d5497cebaed0395499059926a25ce1aafa0b4
+
+Este ZIP es una copia de trabajo limpia enfocada en poder levantar P1 y conservar la arquitectura de P2.
+No contiene los build/install/log de ninguna máquina.

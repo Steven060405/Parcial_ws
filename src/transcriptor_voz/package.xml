@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>transcriptor_voz</name><version>0.1.0</version>
+  <description>Transcripcion Google AI Studio con fallback a texto.</description>
+  <maintainer email="alumno01@esan.edu.pe">alumno</maintainer><license>MIT</license>
+  <depend>rclpy</depend><depend>parcial_interfaces</depend><depend>arm_broker_interfaces</depend><exec_depend>python3-requests</exec_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

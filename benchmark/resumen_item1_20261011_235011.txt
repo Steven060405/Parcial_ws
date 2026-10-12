@@ -1,0 +1,17 @@
+RESUMEN BENCHMARK ITEM 1
+============================================================
+Frases procesadas: 50
+LAYA disponible: 50/50
+Exactitud total LAYA: 42.00%
+Exactitud total Keywords: 100.00%
+Exactitud total Sistema final: 44.00%
+
+LATENCIAS
+------------------------------------------------------------
+Cliente ROS: n=50, mediana=2024.144 ms, p95=2868.191 ms
+Proceso nodo: n=50, mediana=2020.348 ms, p95=2864.814 ms
+HTTP total: n=50, mediana=2018.290 ms, p95=2863.687 ms
+Inferencia LAYA: n=50, mediana=1944.625 ms, p95=2818.128 ms
+RTT/overhead estimado: n=50, mediana=48.088 ms, p95=88.526 ms
+
+Respuestas degradadas: 0/50

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>parcial_interprete</name>
+  <version>0.1.0</version>
+  <description>Servicio /interpretar_orden con LAYA y fallback local.</description>
+  <maintainer email="alumno01@esan.edu.pe">alumno</maintainer>
+  <license>MIT</license>
+  <depend>rclpy</depend>
+  <depend>parcial_interfaces</depend>
+  <exec_depend>python3-requests</exec_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

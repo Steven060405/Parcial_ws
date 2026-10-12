@@ -1,0 +1,24 @@
+# Pedido semantico para la Pregunta 2.
+string client_id
+string accion
+string objeto
+string color
+string zona_destino
+uint8 priority
+---
+bool success
+string message
+float64 wait_time_s
+float64 exec_time_s
+float64 requested_x_mm
+float64 requested_y_mm
+float64 requested_z_mm
+float64 reached_x_mm
+float64 reached_y_mm
+float64 reached_z_mm
+float64 error_mm
+---
+string state
+string stage
+int32 queue_position
+float64 elapsed_s

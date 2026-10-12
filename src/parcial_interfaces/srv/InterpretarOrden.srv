@@ -1,0 +1,14 @@
+string frase
+---
+string accion
+string objeto
+string color
+int32 prioridad
+bool permitido
+bool degradado
+string metodo
+float64 tiempo_proceso_ms
+float64 http_total_ms
+float64 inferencia_laya_ms
+float64 rtt_red_ms
+string detalle

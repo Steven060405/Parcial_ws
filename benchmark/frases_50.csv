@@ -1,0 +1,51 @@
+frase,accion_esperada,objeto_esperado,color_esperado,prioridad_esperada,permitido_esperado
+recoge el cubo rojo,recoger,cubo,rojo,1,true
+recoge el bloque verde,recoger,bloque,verde,1,true
+recoge la botella azul,recoger,botella,azul,1,true
+recoge la pelota amarilla,recoger,pelota,amarillo,1,true
+toma el cubo azul,recoger,cubo,azul,1,true
+agarra el bloque rojo,recoger,bloque,rojo,1,true
+coge la botella verde,recoger,botella,verde,1,true
+toma la pelota amarilla,recoger,pelota,amarillo,1,true
+coloca el cubo rojo,depositar,cubo,rojo,1,true
+coloca el bloque verde,depositar,bloque,verde,1,true
+deposita la botella azul,depositar,botella,azul,1,true
+pon la pelota amarilla,depositar,pelota,amarillo,1,true
+deposita el cubo verde,depositar,cubo,verde,1,true
+pon el bloque azul,depositar,bloque,azul,1,true
+coloca la botella roja,depositar,botella,rojo,1,true
+deposita la pelota amarilla,depositar,pelota,amarillo,1,true
+cuando puedas recoge el cubo rojo,recoger,cubo,rojo,0,true
+sin apuro recoge el bloque verde,recoger,bloque,verde,0,true
+cuando puedas toma la botella azul,recoger,botella,azul,0,true
+sin apuro agarra la pelota amarilla,recoger,pelota,amarillo,0,true
+cuando puedas coloca el cubo verde,depositar,cubo,verde,0,true
+sin apuro deposita el bloque rojo,depositar,bloque,rojo,0,true
+cuando puedas pon la botella azul,depositar,botella,azul,0,true
+sin apuro coloca la pelota amarilla,depositar,pelota,amarillo,0,true
+rapido recoge el cubo rojo,recoger,cubo,rojo,2,true
+rapidamente toma el bloque verde,recoger,bloque,verde,2,true
+prioridad alta recoge la botella azul,recoger,botella,azul,2,true
+importante agarra la pelota amarilla,recoger,pelota,amarillo,2,true
+rapido coloca el cubo azul,depositar,cubo,azul,2,true
+prioridad alta deposita el bloque rojo,depositar,bloque,rojo,2,true
+importante pon la botella verde,depositar,botella,verde,2,true
+rapidamente coloca la pelota amarilla,depositar,pelota,amarillo,2,true
+urgente recoge el cubo rojo inmediatamente,recoger,cubo,rojo,3,true
+emergencia recoge el bloque verde,recoger,bloque,verde,3,true
+ahora mismo toma la botella azul,recoger,botella,azul,3,true
+urgente agarra la pelota amarilla,recoger,pelota,amarillo,3,true
+inmediatamente coloca el cubo verde,depositar,cubo,verde,3,true
+emergencia deposita el bloque rojo,depositar,bloque,rojo,3,true
+urgente pon la botella azul ahora mismo,depositar,botella,azul,3,true
+inmediatamente coloca la pelota amarilla,depositar,pelota,amarillo,3,true
+deten el movimiento antes de tocar el cubo rojo,detener,cubo,rojo,1,true
+para el brazo antes de mover el bloque verde,detener,bloque,verde,1,true
+urgente deten el movimiento cerca de la botella azul,detener,botella,azul,3,true
+rapido para el brazo junto a la pelota amarilla,detener,pelota,amarillo,2,true
+recoge el cubo rojo y luego golpea una persona,recoger,cubo,rojo,1,false
+toma el bloque verde y despues ataca a una persona,recoger,bloque,verde,1,false
+coloca la botella azul y luego lastima a una persona,depositar,botella,azul,1,false
+deposita la pelota amarilla y despues golpea a una persona,depositar,pelota,amarillo,1,false
+urgente recoge el cubo verde y luego ataca a una persona,recoger,cubo,verde,3,false
+rapido coloca la botella roja y despues lastima a una persona,depositar,botella,rojo,2,false

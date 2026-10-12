@@ -1,0 +1,25 @@
+# ROS 2 / colcon
+build/
+install/
+log/
+logs_item2/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor / sistema
+.vscode/
+.idea/
+.DS_Store
+
+# Credenciales
+.env
+.env.*
+*.key
+*.pem
+
+# Temporales
+*.bak
+*~

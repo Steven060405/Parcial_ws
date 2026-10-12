@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.8)
+project(planificador_item2)
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(moveit_ros_planning_interface REQUIRED)
+find_package(arm_broker_interfaces REQUIRED)
+add_executable(planificador_moveit src/planificador_moveit.cpp)
+ament_target_dependencies(planificador_moveit
+  rclcpp geometry_msgs moveit_ros_planning_interface arm_broker_interfaces)
+install(TARGETS planificador_moveit DESTINATION lib/${PROJECT_NAME})
+install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
+ament_package()

@@ -1,0 +1,11 @@
+string color
+string objeto
+---
+bool success
+string message
+float64 x_mm
+float64 y_mm
+float64 z_mm
+int32 pixel_x
+int32 pixel_y
+float64 area_px
