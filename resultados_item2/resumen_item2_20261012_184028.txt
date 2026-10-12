@@ -1,0 +1,7 @@
+PREGUNTA 2 - RESUMEN 10 INTENTOS
+=============================================
+Intentos totales: 10
+Exitos fisicos: 10
+Tasa de exito: 100.0%
+Error FK promedio en intentos exitosos: 8.755 mm
+CSV: /home/jetson/Parcial_ws/resultados_item2/intentos_item2_20261012_184028.csv
