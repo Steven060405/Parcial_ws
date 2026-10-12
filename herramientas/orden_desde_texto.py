@@ -13,7 +13,7 @@ class OrdenDesdeTexto(Node):
         self.interprete = self.create_client(InterpretarOrden, '/interpretar_orden')
         self.broker = ActionClient(self, OrdenBrazo, 'orden_brazo')
 
-    def ejecutar(self, frase, cliente='operador', zona='zona_entrega'):
+    def ejecutar(self, frase, cliente='operador', zona='zona_a'):
         if not self.interprete.wait_for_service(timeout_sec=10.0):
             raise RuntimeError('/interpretar_orden no disponible')
         req = InterpretarOrden.Request(); req.frase = frase
