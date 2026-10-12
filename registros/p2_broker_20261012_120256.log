@@ -1,0 +1,7 @@
+[INFO] [1791824577.547979456] [arm_broker]: arm_broker listo · politica=prioridad · cola_max=20 · unico publicador de /joint_states
+[INFO] [1791825711.514282496] [arm_broker]: ACCEPT cliente=prueba_home prioridad=10 paso=0.000 rad cola=0/20
+[INFO] [1791825711.519590368] [arm_broker]: QUEUED goal=fab25c4fb54c cliente=prueba_home prioridad=10 posicion=1
+[INFO] [1791825711.522498752] [arm_broker]: DISPATCH goal=fab25c4fb54c cliente=prueba_home prioridad=10 espera=0.003s
+[INFO] [1791825711.524911776] [arm_broker]: EXECUTE goal=fab25c4fb54c cliente=prueba_home pasos=10 duracion=3.00s
+[INFO] [1791825714.573063648] [arm_broker]: DONE goal=fab25c4fb54c cliente=prueba_home espera=0.003s ejec=3.046s
+[WARN] [1791826558.795858688] [arm_broker]: REJECT cliente=prueba_inspeccion prioridad=10 motivo="paso articular 1.222 rad > maximo 1.200 rad"

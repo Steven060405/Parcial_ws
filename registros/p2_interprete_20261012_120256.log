@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/jetson/Parcial_ws/install/parcial_interprete/lib/parcial_interprete/interprete_ordenes", line 33, in <module>
+    sys.exit(load_entry_point('parcial-interprete', 'console_scripts', 'interprete_ordenes')())
+  File "/home/jetson/Parcial_ws/build/parcial_interprete/parcial_interprete/interprete_ordenes.py", line 236, in main
+    nodo = InterpreteOrdenes()
+  File "/home/jetson/Parcial_ws/build/parcial_interprete/parcial_interprete/interprete_ordenes.py", line 19, in __init__
+    self.declare_parameter('timeout_s', 5.0)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/node.py", line 367, in declare_parameter
+    return self.declare_parameters('', [args], ignore_override)[0]
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/node.py", line 494, in declare_parameters
+    self._set_parameters(
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/node.py", line 739, in _set_parameters
+    raise InvalidParameterTypeException(
+rclpy.exceptions.InvalidParameterTypeException: Trying to set parameter 'timeout_s' to '5' of type 'INTEGER', expecting type 'DOUBLE'
+[ros2run]: Process exited with failure 1

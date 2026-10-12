@@ -38,11 +38,11 @@ source "$CONFIG"
 POSE_UPPER="$(echo "$POSE" | tr '[:lower:]' '[:upper:]')"
 
 case "$POSE_UPPER" in
-    ROJO|VERDE|AZUL|AMARILLO|HOME|ZONA_A)
+    ROJO|VERDE|AZUL|AMARILLO|HOME|ZONA_A|INSPECCION|SEGURA)
         ;;
     *)
         echo "Pose no reconocida: $POSE"
-        echo "Opciones: rojo verde azul amarillo home zona_a"
+        echo "Opciones: rojo verde azul amarillo home zona_a inspeccion segura inspeccion segura"
         exit 1
         ;;
 esac
