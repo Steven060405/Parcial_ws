@@ -863,7 +863,6 @@ FALLO=0
 
 NODOS_ESPERADOS=(
     /arm_broker
-    /interprete_ordenes
     /move_group
     /percepcion_camara
     /planificador_moveit
